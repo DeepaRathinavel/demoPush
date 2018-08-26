@@ -22,7 +22,7 @@ public void facebook() throws InterruptedException
 	WebElement eleUserName = locateElement("xpath", "//table[@role=\"presentation\"]/tbody/tr[2]/td[1]/input");
 	type(eleUserName, "deepamca88@gmail.com");
 	WebElement elePassword = locateElement("xpath","//table[@role=\"presentation\"]/tbody/tr[2]/td[2]/input");
-	type(elePassword, "r@thideep@");
+	type(elePassword, "htyutuyt");
     locateElement("xpath","//table[@role=\"presentation\"]/tbody/tr[2]/td[3]/label/input").click();
     	
 	WebElement search = locateElement("xpath", "//input[@aria-label=\"Search\"]");
